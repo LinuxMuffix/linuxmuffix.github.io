@@ -1,0 +1,36 @@
+body {
+  background-color: #5F7278;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 12pt;
+  color: #000;
+}
+p {
+  margin: 0;
+}
+.container {
+  border-radius: 12px;
+  margin: 96px auto 0;
+  max-width: 600px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.header {
+  border-radius: 12px 12px 0 0;
+  background: #ffd373;
+  background: -moz-linear-gradient(top,  #ffd373 0%, #f2a900 100%);
+  background: -webkit-linear-gradient(top,  #ffd373 0%,#f2a900 100%);
+  background: linear-gradient(to bottom,  #ffd373 0%,#f2a900 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd373', endColorstr='#f2a900',GradientType=0 );
+  color: #FFFFFF;
+  text-shadow: 0px -2px 0px rgba(0, 0, 0, 0.4);
+  padding: 16px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header > h1 {
+  margin: 0;
+  font-weight: normal;
+}
+.main {
+  padding: 16px;
+}
